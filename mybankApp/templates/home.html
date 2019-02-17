@@ -1,0 +1,29 @@
+<html>
+
+<head>
+
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <h1>Enter IFSC Code</h1>
+    <form action="{% url 'Bank' %}" method="GET">
+        <input type="text" name="ifsc" placeholder="Enter IFSC Code"/>
+        <input type="submit" value="Get" />
+    </form>
+
+    <h1>Enter Bank Name and City</h1>
+
+    <form action="{% url 'BankInfo' %}" method="GET">
+        <input type="text" name="bName" placeholder="Bank Name"/>
+        <input type="text" name="bCity" placeholder="City"/>
+        <input type="submit" value="Get" />
+    </form>
+
+
+
+</body>
+
+</html>
