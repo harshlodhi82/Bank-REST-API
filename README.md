@@ -7,4 +7,4 @@
   <li>Django</li>
   <li>Djangorestframework</li>
 </ul>
-<img src="images/53314671-9af62680-38e5-11e9-9cf9-1cb340c4d66b.png" height="42" width="42">
+<h3>Images:</h3>
